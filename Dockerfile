@@ -17,4 +17,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . /app/
 
 # Specify the command to run when the container starts
-CMD ["python", "Internshala/python_django_internship.py"]
+CMD ["python", "python_django_internship.py"]
